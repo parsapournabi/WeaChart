@@ -145,10 +145,10 @@ $ ~/qcustommodels/Chart: chmod +x install.sh
 $ ~/qcustommodels/Chart: sudo ./install.sh
 ```
 
-> [!INFO]
+> [!NOTE]
 > Usually the `INSTALL_PREFIX` on linux is: `/usr/local/...`
 
-> [!INFO]
+> [!NOTE]
 > You can pass custom `INSTALL_PREFIX` like below.
 
 ```bash
@@ -181,10 +181,10 @@ cmake --build . --config Release
 cmake --install .
 ```
 
-> [!INFO]
+> [!NOTE]
 > Usually the `CMAKE_INSTALL_PREFIX` on windows is: `C:/Program Files/WeaChart/`
 
-> [!INFO]
+> [!NOTE]
 > You can pass custom `CMAKE_INSTALL_PREFIX` like below.
 
 ```bash
@@ -218,7 +218,7 @@ After installing the library follow these sequence:
 - Assign **QML_IMPORT_PATH** with [WeaChart_QML_IMPORT_PATH](http://172.16.50.13/parsa/qcustommodels/-/blob/main/Chart/include/WeaChart/config.h#L4) (it's optional, this will help **IDE** to shows Component properties and completetion.)
 - Implement **WeaChart** lib and includes.
 
-> [!INFO]
+> [!NOTE]
 > If after assigning **QML_IMPORT_PATH** Components were still **Unknown**, restart Qt Creator application and then it works :)
 
 <details><summary><h3> qmake </h3></summary>
@@ -333,7 +333,7 @@ Each series supports three color modes:
 2. Only **base color**.
 3. Only **point color**.
 
-> [!INFO]
+> [!NOTE]
 > see [GLEnums.h](http://172.16.50.13/parsa/qcustommodels/-/blob/main/Chart/include/WeaChart/series/GLEnums.h) for more details about types.
 
 ## Interaction
